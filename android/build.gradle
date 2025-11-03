@@ -19,7 +19,7 @@ android {
         namespace 'com.nt4f04und.android_content_provider'
     }
 
-    compileSdkVersion 31
+    compileSdkVersion 36
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -37,7 +37,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
 
         buildFeatures {
             buildConfig true

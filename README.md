@@ -2,6 +2,24 @@
 
 This plugin exposes ContentProvider and related ContentResolver APIs on Android.
 
+ZBM2 fixes 25.10.
+
+```text
+Package Notes
+=============
+Clear pub cache to check package builds are OK
+Fixed packages
+~/Documents/AS_workspace/Flutter/localpackages/android_content_provider/example
+android_content_provider:
+git:
+url: git@github.com:zbm2/android_content_provider
+Fork of original
+Updates to gradle build and SDK 36
+Example builds cleanly.
+deprecations
+android_content_provider/AndroidContentProviderMessageCodec.java uses or overrides a deprecated API.
+```
+
 ### Android 11 package visibility
 
 Android 11 introduced a security mechanism that is called a [package visibility](https://developer.android.com/training/package-visibility).
